@@ -7,3 +7,8 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
+blog/fixtures/
+login-bak.html
+logout-bak.html
+signup-bak.html
+db.sqlite3

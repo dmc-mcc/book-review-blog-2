@@ -1,6 +1,48 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+pip3 install Django~=4.2.1 
+pip3 freeze local > requirements.txt 
+django-admin startproject codeblog . 
+python3 manage.py startapp blog 
+python3 manage.py runserver
 
-Welcome USER_NAME,
+pip3 install gunicorn~=20.1 
+pip3 freeze local > requirements.txt 
+pip3 install dj-database-url~=0.5 psycopg2~=2.9 
+pip3 install django-summernote~=0.8.20.0 
+pip3 install whitenoise~=5.3.0 
+pip3 install django-allauth~=0.57.0 
+pip3 show django-allauth 
+https://docs.allauth.org/en/latest/installation/quickstart.html /workspace/.pip-modules/lib/python3.9/site-packages 
+cp -r /workspace/.pip-modules/lib/python3.9/site-packages/allauth/templates/* ./templates/ 
+pip3 install django-crispy-forms~=2.0 crispy-bootstrap5~=0.7 
+pip3 install cloudinary~=1.36.0 dj3-cloudinary-storage~=0.0.6 
+pip3 install urllib3~=1.26.15
+
+python3 manage.py collectstatic 
+python3 -V 
+Python 3.9.17
+
+pip3 freeze local > requirements.txt 
+python3 manage.py migrate 
+python3 manage.py createsuperuser 
+https://book-review-blog-ff699e16bcc0.herokuapp.com/admin/auth/user/1/change/
+
+python3 manage.py makemigrations blog 
+python3 manage.py migrate blog 
+python3 manage.py makemigrations --dry-run 
+python3 manage.py migrate blog zero (unapply migrations) 
+git diff mkdir -p blog/templates/blog 
+touch blog/templates/blog/post_list.html 
+python3 manage.py loaddata posts
+
+dmc-m dmcblog
+
+
+
+
+
+
+
+Welcome dmc mcc,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
