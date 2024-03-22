@@ -40,6 +40,7 @@ dmc-m dmcblog
 
 
 
+featured_image = CloudinaryField('image', default='placeholder')
 
 
 Welcome dmc mcc,
